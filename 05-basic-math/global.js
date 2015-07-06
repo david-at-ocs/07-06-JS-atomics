@@ -19,6 +19,6 @@ alert(firstNum + " / " + secondNum + " " + (firstNum / secondNum));
 alert(firstNum + "++" + " = " + firstInc);
 alert(secondNum + "--" + " = " + secondSub);
 
-console.log(typeof firstNum);
-console.log(typeof secondNum);
-console.log(typeof thirdNum);
+console.log(firstNum);
+console.log(secondNum);
+console.log(thirdNum);
