@@ -1,18 +1,15 @@
-var start = prompt("start value");
-var end = prompt("ending value");
-var countby = prompt("count by");
+var start, end, countby, countby;
 
+var start = prompt("Starting Value")
 start = parseInt(start);
-end = parseInt(end);
-countby = parseInt(countby);
 
-while (end < start) {
-  end = prompt("enter an ending value greater than " + start);
+for (end = prompt("Enter an ending value"), end = parseInt(end); end < start;) { 
+  end = prompt("Please enter an eding value larger than " + start + "!")
   end = parseInt(end);
 }
 
-
-while (start < end) {
-    console.log(start);
-    start += countby;
+for (countby = prompt("Count by:"), countby = parseInt(countby); start < end; start += countby) { 
+  countby = parseInt(countby);
+  console.log(start);
 }
+
